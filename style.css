@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(130, 133, 128);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    .logo {
+        width: 100%;
+        height: 100%;
+        max-width: 800px;
+        min-width: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .welcome {
+        background-image: url(images/restaurant.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+#container {
+    display: flex;
+    gap: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    /* Mobile phone */
+    #container {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 40px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+    
+
+    .sec1 {
+        background-color: rgb(118, 121, 119);
+        border-radius: 30px;
+    }
+
+    .sec2 {
+        background-color: rgb(118, 121, 119);
+        border-radius: 30px;
+    }
+
+    .sec3 {
+        background-color: rgb(118, 121, 119);
+        border-radius: 30px;
+    }
+    
+    #container p {
+        display: flex;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .picture {
+        object-fit: cover;
+        max-width: 80%;
+        height: auto;
+        border-radius: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1vh 1vw;
+    }
+
+    .logofoot {
+        width: 100%;
+        height: auto;
+        min-width: none;
+        max-width: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    h1 {
+        font-size: 40px;
+        color: #fff;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-shadow: 5px 5px 8px black;
+        text-align: center;
+    }
+    
+    h1 + p {
+        color: #fff;
+        font-size: 2rem;
+        text-shadow: 5px 5px 8px black;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    h2 +p {
+        display: flex;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    header {
+        display: block;
+        background-color: rgb(118, 121, 119);
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(118, 121, 119);
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    nav li {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav ul li:hover {
+        background-color: rgb(80, 79, 79);
+        border-radius: 15px;
+        width: auto;
+        transition: 1s;
+    }
+
+    
+    article {
+        flex: 1;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        color: rgb(7, 7, 7);
+        margin-right: 20px;
+    }
+
+
